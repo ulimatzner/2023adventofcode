@@ -1,4 +1,4 @@
-import day0 as today
+import day1 as today
 
 
 def main():
