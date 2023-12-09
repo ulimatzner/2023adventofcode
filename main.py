@@ -1,6 +1,6 @@
-import day1 as today
+from day1 import code
 
 
 def main():
-    output = today.code.solve("input.txt")
+    output = code.solve("input.txt")
     print(f"{output = }")

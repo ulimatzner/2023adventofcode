@@ -1,9 +1,9 @@
 from unittest import TestCase
-import day1 as today
+import code
 
 
 class Test(TestCase):
-    def test_main(self):
+    def test_solve(self):
         expected = 142
-        actual = today.code.solve("test_input.txt")
+        actual = code.solve("test_input.txt")
         self.assertEqual(expected, actual)

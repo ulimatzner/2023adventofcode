@@ -1,4 +1,9 @@
+# logic is in parent directory
 import logic
+
+# enable importing from parent directory
+import sys
+sys.path.append('../logic')
 
 
 def solve(file_name):
